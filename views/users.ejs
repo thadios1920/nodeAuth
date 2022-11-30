@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+
+<%- include('partials/header') %>
+
+<h1>List of users : </h1>
+<%for (let index = 0; index < emails.length; index++) {%>
+    <h1><%= emails[index] %></h1> <br>
+<% } %>
+
+<%- include('partials/footer') %>
